@@ -1,0 +1,22 @@
+# VSCode
+.vscode/
+
+# Python caches (aunque ya tenemos uno en backend, no hace daño ser general)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno (si decides usar .env en la raíz)
+.env
+.env.*
+!/.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
